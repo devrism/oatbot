@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('discord.js');
-const OPENAI_TOKEN = require('../../config.json');
+const{ OPENAI_TOKEN } = require('../../config.json');
 
 async function askGPT(interaction) {
 	var userInput = interaction.options.get('input')["value"];
@@ -87,5 +87,3 @@ module.exports = {
 		await interaction.editReply(String(chatgptResponse));
 	}
 };
-
-// to register slash commands, run node deploy-commands.js at root

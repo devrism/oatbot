@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bard-api-node": "^1.3.2",
     "discord.js": "^14.14.1"
   }
 }
