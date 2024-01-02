@@ -1,6 +1,6 @@
 - need to have a config.json file at root with this format:
 ```
-  {
+{
   "token":"YOUR_TOKEN_HERE",
   "clientId": "YOUR_APPLICATION_ID_HERE",
   "guildId": "GUILD_ID_HERE",
